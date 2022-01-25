@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="SeleniumPractice" parallel="false" preserve-order="true">
+<listeners>
+     <listener class-name="com.rbc.utilities.Reporting"/>
+</listeners>
+  <test name="Nopackage" parallel="false" preserve-order="true">
+    <classes>
+       <class name="com.rbc.testCase.LoginInToTeams" />
+       <class name="com.rbc.testCase.NavigateToRBC" />
+       <class name="com.rbc.testCase.ClockOffRoleFromChat" />
+    </classes>
+  </test>
+</suite>

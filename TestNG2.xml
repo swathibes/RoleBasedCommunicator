@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="SeleniumPractice" parallel="false" preserve-order="true" >
+<listeners>
+     <listener class-name="com.rbc.utilities.Reporting"/>
+</listeners>
+  <test name="Nopackage" >
+  <parameter name="Role" value="Gen Med 1 HMO 3"/>
+  <parameter name="Teamoption" value="ED"/>
+  <parameter name="Type" value="Question (Routine)"/>
+   <parameter name="Clinicalkind" value="Hypotension"/>
+   <parameter name="URNumber" value="12345"/>
+   <parameter name="Name" value="vivki"/>
+   <parameter name="Dob" value="12/12/1990"/>
+   <parameter name="Ward" value="12"/>
+  <parameter name="TimeFrame" value="Within half hour"/>
+  <parameter name="Details" value="Testing"/>
+    <classes>
+       <class name="com.rbc.testCase.LoginInToTeams" />
+       <class name="com.rbc.testCase.NavigateToRBC" />
+    </classes>
+  </test>
+  
+</suite>
+

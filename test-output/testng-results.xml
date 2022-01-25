@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="16" total="25" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-25T14:28:41 AEDT" name="SeleniumPractice" finished-at="2022-01-25T14:31:18 AEDT" duration-ms="157199">
+    <groups>
+    </groups>
+    <test started-at="2022-01-25T14:28:41 AEDT" name="Nopackage" finished-at="2022-01-25T14:31:18 AEDT" duration-ms="157199">
+      <class name="com.rbc.testCase.ClockOnRoleFromChat">
+        <test-method signature="ClockOnRoleeee()[pri:0, instance:com.rbc.testCase.ClockOnRoleFromChat@7a69b07]" started-at="2022-01-25T14:29:09 AEDT" name="ClockOnRoleeee" finished-at="2022-01-25T14:29:23 AEDT" duration-ms="14236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClockOnRoleeee -->
+      </class> <!-- com.rbc.testCase.ClockOnRoleFromChat -->
+      <class name="com.rbc.testCase.GetInTouchWithaRoleValidation">
+        <test-method signature="GetInTouchValidation(java.lang.String)[pri:0, instance:com.rbc.testCase.GetInTouchWithaRoleValidation@50a638b5]" started-at="2022-01-25T14:30:21 AEDT" name="GetInTouchValidation" finished-at="2022-01-25T14:30:41 AEDT" duration-ms="20458" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ED]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetInTouchValidation -->
+      </class> <!-- com.rbc.testCase.GetInTouchWithaRoleValidation -->
+      <class name="com.rbc.testCase.RoleSelect">
+        <test-method signature="SelectRole(java.lang.String)[pri:0, instance:com.rbc.testCase.RoleSelect@5e82df6a]" started-at="2022-01-25T14:29:23 AEDT" name="SelectRole" finished-at="2022-01-25T14:29:45 AEDT" duration-ms="21452" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gen Med 2 HMO 2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectRole -->
+      </class> <!-- com.rbc.testCase.RoleSelect -->
+      <class name="com.rbc.testCase.RoleSelectValidation">
+        <test-method signature="SelectRoleValidation(java.lang.String)[pri:0, instance:com.rbc.testCase.RoleSelectValidation@3f197a46]" started-at="2022-01-25T14:29:45 AEDT" name="SelectRoleValidation" finished-at="2022-01-25T14:29:45 AEDT" duration-ms="106" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gen Med 2 HMO 2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectRoleValidation -->
+      </class> <!-- com.rbc.testCase.RoleSelectValidation -->
+      <class name="com.rbc.testCase.Message">
+        <test-method signature="MessageDlg(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.rbc.testCase.Message@1817d444]" started-at="2022-01-25T14:30:41 AEDT" name="MessageDlg" finished-at="2022-01-25T14:30:59 AEDT" duration-ms="17787" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gen Med 1 HMO 3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Urgent Clinical Review (Urgent)]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hypotension]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[vivki]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[12/12/1990]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Within half hour]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Testing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MessageDlg -->
+      </class> <!-- com.rbc.testCase.Message -->
+      <class name="com.rbc.testCase.Respond">
+        <test-method signature="RespondToMsg()[pri:0, instance:com.rbc.testCase.Respond@6ca8564a]" started-at="2022-01-25T14:30:59 AEDT" name="RespondToMsg" finished-at="2022-01-25T14:31:18 AEDT" duration-ms="19098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RespondToMsg -->
+      </class> <!-- com.rbc.testCase.Respond -->
+      <class name="com.rbc.testCase.NavigateToRBC">
+        <test-method signature="RoleBaseCommunicator()[pri:0, instance:com.rbc.testCase.NavigateToRBC@1139b2f3]" started-at="2022-01-25T14:29:04 AEDT" name="RoleBaseCommunicator" finished-at="2022-01-25T14:29:09 AEDT" duration-ms="4928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RoleBaseCommunicator -->
+      </class> <!-- com.rbc.testCase.NavigateToRBC -->
+      <class name="com.rbc.testCase.LoginInToTeams">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.rbc.testCase.LoginInToTeams@1ddf84b8]" started-at="2022-01-25T14:28:34 AEDT" name="SetUp" finished-at="2022-01-25T14:28:41 AEDT" duration-ms="6300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="LoginTest()[pri:0, instance:com.rbc.testCase.LoginInToTeams@1ddf84b8]" started-at="2022-01-25T14:28:41 AEDT" name="LoginTest" finished-at="2022-01-25T14:29:04 AEDT" duration-ms="22961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rbc.testCase.LoginInToTeams@1ddf84b8]" started-at="2022-01-25T14:31:18 AEDT" name="tearDown" finished-at="2022-01-25T14:31:19 AEDT" duration-ms="370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rbc.testCase.LoginInToTeams -->
+      <class name="com.rbc.testCase.GetInTouchWithaRole">
+        <test-method signature="GetInTouch(java.lang.String)[pri:0, instance:com.rbc.testCase.GetInTouchWithaRole@636be97c]" started-at="2022-01-25T14:29:45 AEDT" name="GetInTouch" finished-at="2022-01-25T14:30:21 AEDT" duration-ms="35687" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gen Med 1 HMO 3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetInTouch -->
+      </class> <!-- com.rbc.testCase.GetInTouchWithaRole -->
+    </test> <!-- Nopackage -->
+  </suite> <!-- SeleniumPractice -->
+</testng-results>

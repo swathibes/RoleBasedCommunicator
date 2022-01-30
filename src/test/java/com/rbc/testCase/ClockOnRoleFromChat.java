@@ -11,9 +11,9 @@ public class ClockOnRoleFromChat extends BaseClass {
 		RBC_Chat clock = new RBC_Chat(driver);
 		Thread.sleep(5000);
 		clock.SwitchToFrame();
-		Thread.sleep(3000);
+		Thread.sleep(6000);
 		clock.clockOnrole();
-		Thread.sleep(5000);
+		Thread.sleep(10000);
 
 	}
 

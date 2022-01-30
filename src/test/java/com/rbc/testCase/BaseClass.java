@@ -14,7 +14,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
-import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
 import com.rbc.pageObjects.MessageDlgBox;
@@ -47,10 +46,9 @@ public class BaseClass {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 	}
 
-	@AfterSuite
-	public void tearDown() {
-		driver.quit();
-	}
+	/*
+	 * @AfterSuite public void tearDown() { driver.quit(); }
+	 */
 
 	public static void captureScreen(String tname) throws IOException {
 		TakesScreenshot ts = (TakesScreenshot) driver;

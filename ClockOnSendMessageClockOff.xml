@@ -7,7 +7,7 @@
      <listener class-name="com.rbc.utilities.Reporting"/>
 </listeners>
   <test name="Nopackage" >
-  <parameter name="Role" value="Gen Med 2 HMO 2"/>
+  <parameter name="Role" value="Gen Med 2 HMO 1"/>
   <parameter name="SendMessageRole" value="Gen Med 1 HMO 3"/>
   <parameter name="Teamoption" value="ED"/>
   <parameter name="Type" value="Urgent Clinical Review (Urgent)"/>

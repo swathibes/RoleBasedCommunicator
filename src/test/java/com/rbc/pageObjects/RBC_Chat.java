@@ -39,7 +39,7 @@ public class RBC_Chat {
 	@FindBy(xpath = "(//div[@id=\"roleContacted\"])[last()]")
 	List<WebElement> roles;
 
-	@FindBy(xpath = "(//div[contains(@class,\"ui-menubutton\")]//button//span/parent::button)[last()]")
+	@FindBy(xpath = "(//div[contains(@class,\"actionSet\")]//button//span/parent::button)[last()]")
 	WebElement multipleshifts;
 
 	@FindBy(xpath = "(//p[text()=\"Looks like you're clocked into multiple shifts. What role/team would you want to send this message as?\"])[last()]")

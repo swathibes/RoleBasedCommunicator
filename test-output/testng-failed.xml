@@ -5,7 +5,7 @@
     <listener class-name="com.rbc.utilities.Reporting"/>
   </listeners>
   <test thread-count="5" name="Nopackage(failed)">
-    <parameter name="Role" value="Gen Med 2 HMO 2"/>
+    <parameter name="Role" value="Gen Med 2 HMO 1"/>
     <parameter name="TimeFrame" value="Within half hour"/>
     <parameter name="Type" value="Urgent Clinical Review (Urgent)"/>
     <parameter name="Details" value="Testing"/>
@@ -17,13 +17,36 @@
     <parameter name="Teamoption" value="ED"/>
     <parameter name="Name" value="vivki"/>
     <classes>
-      <class name="com.rbc.testCase.Respond">
+      <class name="com.rbc.testCase.RoleSelectValidation">
         <methods>
           <include name="SetUp"/>
-          <include name="tearDown"/>
-          <include name="RespondToMsg"/>
+          <include name="SelectRoleValidation" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.rbc.testCase.Respond -->
+      </class> <!-- com.rbc.testCase.RoleSelectValidation -->
+      <class name="com.rbc.testCase.GetInTouchWithaRole">
+        <methods>
+          <include name="SetUp"/>
+          <include name="GetInTouch" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.rbc.testCase.GetInTouchWithaRole -->
+      <class name="com.rbc.testCase.GetInTouchWithaRoleValidation">
+        <methods>
+          <include name="GetInTouchValidation" invocation-numbers="0"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.rbc.testCase.GetInTouchWithaRoleValidation -->
+      <class name="com.rbc.testCase.Message">
+        <methods>
+          <include name="SetUp"/>
+          <include name="MessageDlg" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.rbc.testCase.Message -->
+      <class name="com.rbc.testCase.RoleSelect">
+        <methods>
+          <include name="SetUp"/>
+          <include name="SelectRole" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.rbc.testCase.RoleSelect -->
     </classes>
   </test> <!-- Nopackage(failed) -->
 </suite> <!-- Failed suite [SeleniumPractice] -->
